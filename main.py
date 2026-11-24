@@ -1,5 +1,6 @@
 """Writes one line of honest error copy to /output/entry.txt.
-
+Pure stdlib Python 3.13. No network, no files read, no secrets.
+"""
 import os
 
 ENTRY = (
